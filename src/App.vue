@@ -1,5 +1,5 @@
 <template>
-    <div id="app">
+    <div>
         <todos></todos>
     </div>
 </template>
@@ -8,7 +8,6 @@
 import Todos from './components/Todos';
 
 export default {
-  name: 'app',
   components: {
     Todos,
   },
